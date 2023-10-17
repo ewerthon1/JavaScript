@@ -3,5 +3,5 @@
  const braco = document.querySelector("#braco")
 
 somar.addEventListener("click", (evento) => {
-    braco.vale  = parceInt(braco.vale) + 1
+    braco.value  = parceInt(braco.vale) + 1
 })
